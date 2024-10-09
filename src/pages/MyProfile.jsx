@@ -1,18 +1,17 @@
 import { useState } from "react";
-import { assets } from "../assets/assets_frontend/assets";
 
 function MyProfile() {
   const [userData, setUserData] = useState({
-    name: "Edward Vincent",
-    image: assets.profile_pic,
-    email: "richardjameswap@gmail.com",
+    name: "Rafael Araujo",
+    image: "https://avatars.githubusercontent.com/u/54370234?v=4",
+    email: "rafa123839@gmail.com",
     phone: "+1  123 456 7890",
     address: {
       line1: "57th Cross, Richmond",
       line2: "Circle, Church Road, London",
     },
-    gender: "Male",
-    dob: "2000-01-20",
+    gender: "Masculino",
+    dob: "2000-02-02",
   });
 
   const [isEdit, setIsEdit] = useState(false);
@@ -39,7 +38,9 @@ function MyProfile() {
       <hr className="bg-zinc-400 h-[1px] border-none" />
 
       <div>
-        <p className="text-neutral-500 underline mt-3">CONTACT INFORMATION</p>
+        <p className="text-neutral-500 underline mt-3">
+          INFORMAÇÕES DE CONTATO
+        </p>
         <div className="grid grid-cols-[1fr_3fr] gap-y-2.5 mt-3 text-neutral-700">
           <p className="font-medium">Email id:</p>
           <p className="text-blue-500">{userData.email}</p>
@@ -91,9 +92,9 @@ function MyProfile() {
       </div>
 
       <div>
-        <p className="text-neutral-500 underline mt-3">BASIC INFORMATION</p>
+        <p className="text-neutral-500 underline mt-3">INFORMAÇÕES BÁSICAS</p>
         <div className="grid grid-cols-[1fr_3fr] gap-y-2.5 mt-3">
-          <p className="font-medium">Gender:</p>
+          <p className="font-medium">Gênero:</p>
           {isEdit ? (
             <select
               className="max-w-20 bg-gray-100"
@@ -102,8 +103,8 @@ function MyProfile() {
                 setUserData((prev) => ({ ...prev, gender: e.target.value }))
               }
             >
-              <option value="Male">Male</option>
-              <option value="Female">Female</option>
+              <option value="Masculino">Masculino</option>
+              <option value="Feminino">Feminino</option>
             </select>
           ) : (
             <p className="text-gray-400">{userData.gender}</p>
@@ -133,14 +134,14 @@ function MyProfile() {
             className="border border-primary px-8 py-2 rounded-full hover:bg-primary hover:text-white transition-all"
             onClick={() => setIsEdit(false)}
           >
-            Save information
+            Salvar Informações
           </button>
         ) : (
           <button
             className="border border-primary px-8 py-2 rounded-full hover:bg-primary hover:text-white transition-all"
             onClick={() => setIsEdit(true)}
           >
-            Edit
+            Editar
           </button>
         )}
       </div>

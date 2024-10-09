@@ -9,8 +9,8 @@ const Banner = () => {
       {/* Left Side*/}
       <div className="flex-1 py-8 sm:py-10 md:py-16 lg:py-24 lg:pl-5">
         <div className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-semibold text-white">
-          <p>Book Appointment</p>
-          <p className="mt-4">With 100+ Trusted Doctors</p>
+          <p>Marque uma consulta</p>
+          <p className="mt-4">Com mais de 100 médicos de confiança</p>
         </div>
         <button
           onClick={() => {
@@ -19,7 +19,7 @@ const Banner = () => {
           }}
           className="bg-white tex-sm sm:text-base text-gray-600 px-8 py-3 rounded-full mt-6 hover:scale-105 transition-all"
         >
-          Creat account
+          Criar uma conta
         </button>
       </div>
 

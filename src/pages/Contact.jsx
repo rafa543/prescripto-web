@@ -5,7 +5,7 @@ function Contact() {
     <div>
       <div className="text-center text-2xl pt-10 text-gray-500">
         <p>
-          CONTACT <span className="text-gray-700 font-semibold">US</span>
+          CONTATE-<span className="text-gray-700 font-semibold">NOS</span>
         </p>
       </div>
 
@@ -16,7 +16,9 @@ function Contact() {
           alt=""
         />
         <div className="flex flex-col justify-center items-start gap-6">
-          <p className="font-semibold text-lg text-gray-600">Our OFFICE</p>
+          <p className="font-semibold text-lg text-gray-600">
+            Nosso ESCRITÓRIO
+          </p>
           <p className="text-gray-500">
             54709 Willms Station <br />
             Suite 350, Washington, USA
@@ -25,13 +27,13 @@ function Contact() {
             Tel: (415) 555‑0132 <br /> Email: greatstackdev@gmail.com
           </p>
           <p className="font-semibold text-lg text-gray-600">
-            Careers at PRESCRIPTO
+            Carreiras na PRESCRIPTO
           </p>
           <p className="text-gray-500">
-            Learn more about our teams and job openings.
+            Saiba mais sobre nossas equipes e vagas de emprego.
           </p>
           <button className="border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500">
-            Explore Jobs
+            Explorar empregos
           </button>
         </div>
       </div>

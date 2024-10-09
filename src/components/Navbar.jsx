@@ -17,19 +17,19 @@ function Navbar() {
       />
       <ul className="hidden md:flex items-start gap-5 font-medium">
         <NavLink to="/">
-          <li className="py-1">HOME</li>
+          <li className="py-1">INICIO</li>
           <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
         </NavLink>
         <NavLink to="/doctors">
-          <li className="py-1">All DOCTORS</li>
+          <li className="py-1">TODOS OS MEDICOS</li>
           <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
         </NavLink>
         <NavLink to="/about">
-          <li className="py-1">ABOUT</li>
+          <li className="py-1">SOBRE</li>
           <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
         </NavLink>
         <NavLink to="/contact">
-          <li className="py-1">CONTACT</li>
+          <li className="py-1">CONTATO</li>
           <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
         </NavLink>
       </ul>
@@ -45,19 +45,19 @@ function Navbar() {
                   onClick={() => navigate("my-profile")}
                   className="hover:text-black cursor-pointer"
                 >
-                  My Profile
+                  Meu Perfil
                 </p>
                 <p
                   onClick={() => navigate("my-appointments")}
                   className="hover:text-black cursor-pointer"
                 >
-                  My Appointments
+                  Meus compromissos
                 </p>
                 <p
                   onClick={() => setToken(false)}
                   className="hover:text-black cursor-pointer"
                 >
-                  Logout
+                  Sair
                 </p>
               </div>
             </div>

@@ -59,241 +59,241 @@ export const assets = {
 }
 
 export const specialityData = [
-    {
-        speciality: 'General physician',
-        image: General_physician
-    },
-    {
-        speciality: 'Gynecologist',
-        image: Gynecologist
-    },
-    {
-        speciality: 'Dermatologist',
-        image: Dermatologist
-    },
-    {
-        speciality: 'Pediatricians',
-        image: Pediatricians
-    },
-    {
-        speciality: 'Neurologist',
-        image: Neurologist
-    },
-    {
-        speciality: 'Gastroenterologist',
-        image: Gastroenterologist
-    },
+{
+    speciality: 'Médico geral',
+    image: General_physician
+},
+{
+    speciality: 'Ginecologista',
+    image: Gynecologist
+},
+{
+    speciality: 'Dermatologista',
+    image: Dermatologist
+},
+{
+    speciality: 'Pediatra',
+    image: Pediatricians
+},
+{
+    speciality: 'Neurologista',
+    image: Neurologist
+},
+{
+    speciality: 'Gastroenterologista',
+    image: Gastroenterologist
+},
 ]
 
 export const doctors = [
     {
         _id: 'doc1',
-        name: 'Dr. Richard James',
+        name: 'Dr. Ricardo Santos',
         image: doc1,
-        speciality: 'General physician',
+        speciality: 'Clínico Geral',
         degree: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '4 Anos',
+        about: 'O Dr. Ricardo Santos tem um forte compromisso em fornecer cuidados médicos abrangentes, focando na medicina preventiva, no diagnóstico precoce e em estratégias de tratamento eficazes.',
         fees: 50,
         address: {
-            line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: '17ª Rua, Richmond',
+            line2: 'Círculo, Anel Rodoviário, São Paulo'
         }
     },
     {
         _id: 'doc2',
-        name: 'Dr. Emily Larson',
+        name: 'Dra. Emília Lopes',
         image: doc2,
-        speciality: 'Gynecologist',
+        speciality: 'Ginecologista',
         degree: 'MBBS',
-        experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '3 Anos',
+        about: 'A Dra. Emília Lopes tem um forte compromisso em fornecer cuidados médicos abrangentes, focando na medicina preventiva, no diagnóstico precoce e em estratégias de tratamento eficazes.',
         fees: 60,
         address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: '27ª Rua, Richmond',
+            line2: 'Círculo, Anel Rodoviário, São Paulo'
         }
     },
     {
         _id: 'doc3',
-        name: 'Dr. Sarah Patel',
+        name: 'Dra. Sara Ferreira',
         image: doc3,
-        speciality: 'Dermatologist',
+        speciality: 'Dermatologista',
         degree: 'MBBS',
-        experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '1 Ano',
+        about: 'A Dra. Sara Ferreira tem um forte compromisso em fornecer cuidados médicos abrangentes, focando na medicina preventiva, no diagnóstico precoce e em estratégias de tratamento eficazes.',
         fees: 30,
         address: {
-            line1: '37th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: '37ª Rua, Richmond',
+            line2: 'Círculo, Anel Rodoviário, São Paulo'
         }
     },
     {
         _id: 'doc4',
-        name: 'Dr. Christopher Lee',
+        name: 'Dr. Cristóvão Lima',
         image: doc4,
-        speciality: 'Pediatricians',
+        speciality: 'Pediatra',
         degree: 'MBBS',
-        experience: '2 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '2 Anos',
+        about: 'O Dr. Cristóvão Lima tem um forte compromisso em fornecer cuidados médicos abrangentes, focando na medicina preventiva, no diagnóstico precoce e em estratégias de tratamento eficazes.',
         fees: 40,
         address: {
-            line1: '47th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: '47ª Rua, Richmond',
+            line2: 'Círculo, Anel Rodoviário, São Paulo'
         }
     },
     {
         _id: 'doc5',
-        name: 'Dr. Jennifer Garcia',
+        name: 'Dra. Jennifer Garcia',
         image: doc5,
-        speciality: 'Neurologist',
+        speciality: 'Neurologista',
         degree: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '4 Anos',
+        about: 'A Dra. Jennifer Garcia tem um forte compromisso em fornecer cuidados médicos abrangentes, focando na medicina preventiva, no diagnóstico precoce e em estratégias de tratamento eficazes.',
         fees: 50,
         address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: '57ª Rua, Richmond',
+            line2: 'Círculo, Anel Rodoviário, São Paulo'
         }
     },
     {
         _id: 'doc6',
-        name: 'Dr. Andrew Williams',
+        name: 'Dr. André Silva',
         image: doc6,
-        speciality: 'Neurologist',
+        speciality: 'Neurologista',
         degree: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '4 Anos',
+        about: 'O Dr. André Silva tem um forte compromisso em fornecer cuidados médicos abrangentes, focando na medicina preventiva, no diagnóstico precoce e em estratégias de tratamento eficazes.',
         fees: 50,
         address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: '57ª Rua, Richmond',
+            line2: 'Círculo, Anel Rodoviário, São Paulo'
         }
     },
     {
         _id: 'doc7',
-        name: 'Dr. Christopher Davis',
+        name: 'Dr. Cristóvão Dias',
         image: doc7,
-        speciality: 'General physician',
+        speciality: 'Clínico Geral',
         degree: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '4 Anos',
+        about: 'O Dr. Cristóvão Dias tem um forte compromisso em fornecer cuidados médicos abrangentes, focando na medicina preventiva, no diagnóstico precoce e em estratégias de tratamento eficazes.',
         fees: 50,
         address: {
-            line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: '17ª Rua, Richmond',
+            line2: 'Círculo, Anel Rodoviário, São Paulo'
         }
     },
     {
         _id: 'doc8',
-        name: 'Dr. Timothy White',
+        name: 'Dr. Tiago Branco',
         image: doc8,
-        speciality: 'Gynecologist',
+        speciality: 'Ginecologista',
         degree: 'MBBS',
-        experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '3 Anos',
+        about: 'O Dr. Tiago Branco tem um forte compromisso em fornecer cuidados médicos abrangentes, focando na medicina preventiva, no diagnóstico precoce e em estratégias de tratamento eficazes.',
         fees: 60,
         address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: '27ª Rua, Richmond',
+            line2: 'Círculo, Anel Rodoviário, São Paulo'
         }
     },
     {
         _id: 'doc9',
-        name: 'Dr. Ava Mitchell',
+        name: 'Dra. Ava Martins',
         image: doc9,
-        speciality: 'Dermatologist',
+        speciality: 'Dermatologista',
         degree: 'MBBS',
-        experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '1 Ano',
+        about: 'A Dra. Ava Martins tem um forte compromisso em fornecer cuidados médicos abrangentes, focando na medicina preventiva, no diagnóstico precoce e em estratégias de tratamento eficazes.',
         fees: 30,
         address: {
-            line1: '37th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: '37ª Rua, Richmond',
+            line2: 'Círculo, Anel Rodoviário, São Paulo'
         }
     },
     {
         _id: 'doc10',
-        name: 'Dr. Jeffrey King',
+        name: 'Dr. Jeferson Reis',
         image: doc10,
-        speciality: 'Pediatricians',
+        speciality: 'Pediatra',
         degree: 'MBBS',
-        experience: '2 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '2 Anos',
+        about: 'O Dr. Jeferson Reis tem um forte compromisso em fornecer cuidados médicos abrangentes, focando na medicina preventiva, no diagnóstico precoce e em estratégias de tratamento eficazes.',
         fees: 40,
         address: {
-            line1: '47th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: '47ª Rua, Richmond',
+            line2: 'Círculo, Anel Rodoviário, São Paulo'
         }
     },
     {
         _id: 'doc11',
-        name: 'Dr. Zoe Kelly',
+        name: 'Dra. Zoe Kelly',
         image: doc11,
-        speciality: 'Neurologist',
+        speciality: 'Neurologista',
         degree: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '4 Anos',
+        about: 'A Dra. Zoe Kelly tem um forte compromisso em fornecer cuidados médicos abrangentes, focando na medicina preventiva, no diagnóstico precoce e em estratégias de tratamento eficazes.',
         fees: 50,
         address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: '57ª Rua, Richmond',
+            line2: 'Círculo, Anel Rodoviário, São Paulo'
         }
     },
     {
         _id: 'doc12',
-        name: 'Dr. Patrick Harris',
+        name: 'Dr. Patrício Harris',
         image: doc12,
-        speciality: 'Neurologist',
+        speciality: 'Neurologista',
         degree: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '4 Anos',
+        about: 'O Dr. Patrício Harris tem um forte compromisso em fornecer cuidados médicos abrangentes, focando na medicina preventiva, no diagnóstico precoce e em estratégias de tratamento eficazes.',
         fees: 50,
         address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: '57ª Rua, Richmond',
+            line2: 'Círculo, Anel Rodoviário, São Paulo'
         }
     },
     {
         _id: 'doc13',
-        name: 'Dr. Chloe Evans',
+        name: 'Dra. Cláudia Evans',
         image: doc13,
-        speciality: 'General physician',
+        speciality: 'Clínico Geral',
         degree: 'MBBS',
-        experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '4 Anos',
+        about: 'A Dra. Cláudia Evans tem um forte compromisso em fornecer cuidados médicos abrangentes, focando na medicina preventiva, no diagnóstico precoce e em estratégias de tratamento eficazes.',
         fees: 50,
         address: {
-            line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: '17ª Rua, Richmond',
+            line2: 'Círculo, Anel Rodoviário, São Paulo'
         }
     },
     {
         _id: 'doc14',
-        name: 'Dr. Ryan Martinez',
+        name: 'Dr. Ryan Martins',
         image: doc14,
-        speciality: 'Gynecologist',
+        speciality: 'Ginecologista',
         degree: 'MBBS',
-        experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '3 Anos',
+        about: 'O Dr. Ryan Martins tem um forte compromisso em fornecer cuidados médicos abrangentes, focando na medicina preventiva, no diagnóstico precoce e em estratégias de tratamento eficazes.',
         fees: 60,
         address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: '27ª Rua, Richmond',
+            line2: 'Círculo, Anel Rodoviário, São Paulo'
         }
     },
     {
         _id: 'doc15',
-        name: 'Dr. Amelia Hill',
+        name: 'Dra. Amélia Hill',
         image: doc15,
-        speciality: 'Dermatologist',
+        speciality: 'Dermatologista',
         degree: 'MBBS',
-        experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
+        experience: '1 Ano',
+        about: 'A Dra. Amélia Hill tem um forte compromisso em fornecer cuidados médicos abrangentes, focando na medicina preventiva, no diagnóstico precoce e em estratégias de tratamento eficazes.',
         fees: 30,
         address: {
-            line1: '37th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: '37ª Rua, Richmond',
+            line2: 'Círculo, Anel Rodoviário, São Paulo'
         }
     },
-]
+];

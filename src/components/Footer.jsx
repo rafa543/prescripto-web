@@ -8,29 +8,33 @@ const Footer = () => {
         <div>
           <img className="mb-5 w-40" src={assets.logo} alt="" />
           <p className="w-full md:w-2/3 text-gray-600 leading-6">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industrys standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            No Prescripto, facilitamos o acesso à saúde de qualidade. Nossa
+            plataforma permite que você agende consultas com profissionais de
+            saúde qualificados de forma prática e rápida. Com uma ampla
+            variedade de especialistas, garantimos que você encontre o
+            atendimento certo para suas necessidades. Comprometidos com a sua
+            saúde e bem-estar, nossa missão é simplificar o processo de
+            agendamento, oferecendo informações claras e suporte dedicado. Cuide
+            de sua saúde com confiança e conveniência!
           </p>
         </div>
 
         {/*Center section*/}
         <div>
-          <p className="text-xl font-medium mb-5">COMPANY</p>
+          <p className="text-xl font-medium mb-5">EMPRESA</p>
           <ul className="flex flex-col gap-2 text-gray-600">
-            <li>Home</li>
-            <li>About us</li>
-            <li>Contact us</li>
-            <li>Privacy policy</li>
+            <li>Inicio</li>
+            <li>Sobre nós</li>
+            <li>Contate-nos</li>
+            <li>Política de Privacidade</li>
           </ul>
         </div>
         {/*Right section*/}
         <div>
-          <p className="text-xl font-medium mb-5">GET IN TOUCH</p>
+          <p className="text-xl font-medium mb-5">ENTRE EM CONTATO</p>
           <ul className="flex flex-col gap-2 text-gray-600">
             <li>+1-212-456-7890</li>
-            <li>greatstackdev@gmail.com</li>
+            <li>rafa123839@gmail.com</li>
           </ul>
         </div>
       </div>

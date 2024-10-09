@@ -7,7 +7,7 @@ import RelatedDoctors from "../components/RelatedDoctors";
 function Appointment() {
   const { docId } = useParams();
   const { doctors, currencySymbol } = useContext(AppContext);
-  const daysOfWeek = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
+  const daysOfWeek = ["DOM", "SEG", "TER", "QUA", "QUI", "SEX", "SAB"];
 
   const [docInfo, setDocInfo] = useState(null);
   const [docSlots, setDocSlots] = useState([]);
@@ -104,14 +104,14 @@ function Appointment() {
             {/** doctor About */}
             <div>
               <p className="flex items-center gap-1 text-sm font-medium text-gray-900 mt-3">
-                About <img src={assets.info_icon} alt="" />
+                Sobre <img src={assets.info_icon} alt="" />
               </p>
               <p className="text-sm text-gray-500 max-w-[700px] mt-1">
                 {docInfo.about}
               </p>
             </div>
             <p className="text-gray-500 font-medium mt-4">
-              Appointment fee:
+              Taxa de consulta:
               <span className="text-gray-600">
                 {currencySymbol}
                 {docInfo.fees}
@@ -122,7 +122,7 @@ function Appointment() {
 
         {/**Booking slots */}
         <div className="sm:ml-72 sm:pl-4 mt-4 font-medium text-gray-700">
-          <p>Booking slots</p>
+          <p>Reserva de horários</p>
           <div className="flex gap-3 items-center w-full overflow-x-scroll mt-4">
             {docSlots.length &&
               docSlots.map((item, index) => (
@@ -158,7 +158,7 @@ function Appointment() {
               ))}
           </div>
           <button className="bg-primary text-white text-sm font-light px-14 py-3 rounded-full my-6">
-            Book an appointment
+            Marque uma consulta
           </button>
         </div>
 

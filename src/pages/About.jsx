@@ -5,7 +5,7 @@ function About() {
     <div>
       <div className="text-center text-2xl pt-10 text-gray-500">
         <p>
-          ABOUT <span className="text-gray-700 font_medium">US</span>
+          SOBRE <span className="text-gray-700 font_medium">NOS</span>
         </p>
       </div>
 
@@ -17,60 +17,64 @@ function About() {
         />
         <div className="flex flex-col justify-center gap-6 md:w-2/4 text-sm text-gray-600">
           <p>
-            Welcome to Prescripto, your trusted partner in managing your
-            healthcare needs conveniently and efficiently. At Prescripto, we
-            understand the challenges individuals face when it comes to
-            scheduling doctor appointments and managing their health records.
+            Bem-vindo à Prescripto, seu parceiro de confiança no gerenciamento
+            de suas necessidades de saúde de forma conveniente e eficiente. Na
+            Prescripto, entendemos os desafios que os indivíduos enfrentam
+            quando se trata de agendar consultas médicas e gerenciar seus
+            registros de saúde.
           </p>
           <p>
-            Prescripto is committed to excellence in healthcare technology. We
-            continuously strive to enhance our platform, integrating the latest
-            advancements to improve user experience and deliver superior
-            service. Whether you're booking your first appointment or managing
-            ongoing care, Prescripto is here to support you every step of the
-            way.Prescripto is committed to excellence in healthcare technology.
-            We continuously strive to enhance our platform, integrating the
-            latest advancements to improve user experience and deliver superior
-            service. Whether you're booking your first appointment or managing
-            ongoing care, Prescripto is here to support you every step of the
-            way.
+            A Prescripto está comprometida com a excelência em tecnologia de
+            saúde. Nós nos esforçamos continuamente para aprimorar nossa
+            plataforma, integrando os últimos avanços para melhorar a
+            experiência do usuário e fornecer um serviço superior. Quer você
+            esteja agendando sua primeira consulta ou gerenciando cuidados
+            contínuos, a Prescripto está aqui para apoiá-lo em cada etapa do
+            caminho.A Prescripto está comprometida com a excelência em
+            tecnologia de saúde. Nós nos esforçamos continuamente para aprimorar
+            nossa plataforma, integrando os últimos avanços para melhorar a
+            experiência do usuário e fornecer um serviço superior. Quer você
+            esteja agendando sua primeira consulta ou gerenciando cuidados
+            contínuos, a Prescripto está aqui para apoiá-lo em cada etapa do
+            caminho.
           </p>
-          <b className="text-gray-800">Our Vision</b>
+          <b className="text-gray-800">Nossa Visão</b>
           <p>
-            Our vision at Prescripto is to create a seamless healthcare
-            experience for every user. We aim to bridge the gap between patients
-            and healthcare providers, making it easier for you to access the
-            care you need, when you need it.
+            Nossa visão na Prescripto é criar uma experiência de saúde perfeita
+            para cada usuário. Nosso objetivo é preencher a lacuna entre
+            pacientes e provedores de saúde, facilitando o acesso ao cuidado que
+            você precisa, quando você precisa.
           </p>
         </div>
       </div>
 
       <div className="text-xl my-4">
         <p>
-          WHY <span className="text-gray-700 font-semibold">CHOOSE US</span>{" "}
+          POR QUE{" "}
+          <span className="text-gray-700 font-semibold">NOS ESCOLHER</span>{" "}
         </p>
       </div>
 
       <div className="flex flex-col md:flex-row mb-20">
         <div className="border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-primary hover:text-white transition-all duration-300 text-gray-600 cursor-pointer">
-          <b>Efficiency:</b>
+          <b>Eficiência:</b>
           <p>
-            Streamlined appointment scheduling that fits into your busy
-            lifestyle.
+            Agendamento de consultas simplificado que se adapta ao seu estilo de
+            vida agitado.
           </p>
         </div>
         <div className="border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-primary hover:text-white transition-all duration-300 text-gray-600 cursor-pointer">
-          <b>Convenience:</b>
+          <b>Conveniência:</b>
           <p>
-            Access to a network of trusted healthcare professionals in your
-            area.
+            Acesso a uma rede de profissionais de saúde confiáveis ​​em sua
+            área.
           </p>
         </div>
         <div className="border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-primary hover:text-white transition-all duration-300 text-gray-600 cursor-pointer">
-          <b>Personalization:</b>
+          <b>Personalização:</b>
           <p>
-            Tailored recommendations and reminders to help you stay on top of
-            your health.
+            Recomendações e lembretes personalizados para ajudar você a ficar em
+            dia com sua saúde.
           </p>
         </div>
       </div>
