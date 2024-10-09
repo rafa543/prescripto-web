@@ -1,4 +1,4 @@
-# React Admin
+# Prescripto
 
 ## Descrição
 
