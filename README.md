@@ -6,7 +6,7 @@ O **Prescripto** Neste site de hospital, adicionaremos vários médicos e o usu�
 
 ## Captura de Tela
 
-![Dashboard](https://github.com/rafa543/prescripto-web/blob/main/public/assets/image.png)
+![Dashboard](https://github.com/rafa543/prescripto-web/blob/main/src/assets/image.png)
 
 ## Tecnologias Utilizadas
 
